@@ -9,8 +9,6 @@ module Spree
           @address = find_address
           respond_with(@address)
         end
-<<<<<<< HEAD
-
         # def update
         #   authorize! :update, @order, order_token
         #   @address = find_address
@@ -21,9 +19,6 @@ module Spree
         #     invalid_resource!(@address)
         #   end
         # end
-=======
-
->>>>>>> first_branch
 
         private
 
